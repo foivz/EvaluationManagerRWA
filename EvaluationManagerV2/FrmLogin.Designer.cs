@@ -44,6 +44,7 @@
             this.btnLogin.TabIndex = 14;
             this.btnLogin.Text = "Prijava";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label2
             // 
@@ -82,7 +83,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(132, 20);
             this.txtUsername.TabIndex = 10;
-            this.txtUsername.Text = "mmijac";
+            this.txtUsername.Text = "nastavnik";
             // 
             // FrmLogin
             // 
