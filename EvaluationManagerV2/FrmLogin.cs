@@ -29,7 +29,10 @@ namespace EvaluationManagerV2
             {
                 if (txtUsername.Text == username && txtPassword.Text == password)
                 {
-                    MessageBox.Show("Uspješna prijava!");
+                    Hide();
+                    var form = new FrmStudents();
+                    form.ShowDialog();
+                    Close();
                 }
                 else
                 {
